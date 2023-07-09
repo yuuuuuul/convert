@@ -11,3 +11,4 @@ for name in names:
             info = file_read.read()
         with open(f'Data1/{n}.txt', encoding="utf-8", mode="w") as file_write:
             file_write.write(info)
+
